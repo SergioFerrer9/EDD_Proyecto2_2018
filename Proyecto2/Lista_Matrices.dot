@@ -1,0 +1,128 @@
+digraph structs {
+ node [shape=record];
+ subgraph cluster_1 {
+node [style=filled];
+"NodoL0"
+[ label=" Parqueo: Parqueos",fillcolor=cyan];"Nodo0"
+[ label=" Parqueos",fillcolor=cyan];"NodoCParqueos1"
+[ label=" C: 1"];
+"NodoCParqueos2"
+[ label=" C: 2"];
+"NodoCParqueos3"
+[ label=" C: 3"];
+"NodoCParqueos4"
+[ label=" C: 4"];
+"NodoCParqueos5"
+[ label=" C: 5"];
+"NodoCParqueos6"
+[ label=" C: 6"];
+"NodoFParqueos1"
+[ label=" F: 1"];
+"NodoMParqueos11"
+[ label=" A70C6EDD12"];
+"NodoMParqueos12"
+[ label=" A40C6EDD33"];
+"NodoMParqueos13"
+[ label=" A13C0EDD27"];
+"NodoMParqueos14"
+[ label=" A57C8EDD71"];
+"NodoMParqueos15"
+[ label=" A71C4EDD27"];
+"NodoMParqueos16"
+[ label=" A81C4EDD47"];
+"NodoFParqueos2"
+[ label=" F: 2"];
+"NodoMParqueos21"
+[ label=" A51C4EDD28"];
+"NodoMParqueos22"
+[ label=" A43C7EDD81"];
+"NodoMParqueos23"
+[ label=" A85C2EDD70"];
+"NodoMParqueos24"
+[ label=" A30C2EDD78"];
+"NodoMParqueos25"
+[ label=" A07C6EDD11"];
+"NodoMParqueos26"
+[ label=" A36C1EDD44"];
+"NodoFParqueos3"
+[ label=" F: 3"];
+"NodoMParqueos31"
+[ label=" A34C5EDD76"];
+"NodoMParqueos32"
+[ label=" 0"];
+"NodoMParqueos33"
+[ label=" 0"];
+"NodoMParqueos34"
+[ label=" A45C6EDD12"];
+"NodoMParqueos35"
+[ label=" A81C5EDD36"];
+"NodoMParqueos36"
+[ label=" A37C4EDD25"];
+"NodoFParqueos4"
+[ label=" F: 4"];
+"NodoMParqueos41"
+[ label=" A57C6EDD51"];
+"NodoMParqueos42"
+[ label=" 0"];
+"NodoMParqueos43"
+[ label=" A86C1EDD30"];
+"NodoMParqueos44"
+[ label=" A61C4EDD81"];
+"NodoMParqueos45"
+[ label=" A06C5EDD07"];
+"NodoMParqueos46"
+[ label=" A42C8EDD53"];
+"NodoFParqueos5"
+[ label=" F: 5"];
+"NodoMParqueos51"
+[ label=" 0"];
+"NodoMParqueos52"
+[ label=" A26C0EDD36"];
+"NodoMParqueos53"
+[ label=" A48C6EDD10"];
+"NodoMParqueos54"
+[ label=" A62C0EDD15"];
+"NodoMParqueos55"
+[ label=" A88C0EDD74"];
+"NodoMParqueos56"
+[ label=" A07C2EDD57"];
+"NodoFParqueos6"
+[ label=" F: 6"];
+"NodoMParqueos61"
+[ label=" A78C3EDD61"];
+"NodoMParqueos62"
+[ label=" A27C8EDD34"];
+"NodoMParqueos63"
+[ label=" A01C4EDD73"];
+"NodoMParqueos64"
+[ label=" 0"];
+"NodoMParqueos65"
+[ label=" A32C5EDD17"];
+"NodoMParqueos66"
+[ label=" A34C4EDD47"];
+{rank = same; "Nodo0";"NodoCParqueos1";"NodoCParqueos2";"NodoCParqueos3";"NodoCParqueos4";"NodoCParqueos5";"NodoCParqueos6";}
+{rank = same; "NodoFParqueos1";"NodoMParqueos11";"NodoMParqueos12";"NodoMParqueos13";"NodoMParqueos14";"NodoMParqueos15";"NodoMParqueos16";}
+{rank = same; "NodoFParqueos2";"NodoMParqueos21";"NodoMParqueos22";"NodoMParqueos23";"NodoMParqueos24";"NodoMParqueos25";"NodoMParqueos26";}
+{rank = same; "NodoFParqueos3";"NodoMParqueos31";"NodoMParqueos32";"NodoMParqueos33";"NodoMParqueos34";"NodoMParqueos35";"NodoMParqueos36";}
+{rank = same; "NodoFParqueos4";"NodoMParqueos41";"NodoMParqueos42";"NodoMParqueos43";"NodoMParqueos44";"NodoMParqueos45";"NodoMParqueos46";}
+{rank = same; "NodoFParqueos5";"NodoMParqueos51";"NodoMParqueos52";"NodoMParqueos53";"NodoMParqueos54";"NodoMParqueos55";"NodoMParqueos56";}
+{rank = same; "NodoFParqueos6";"NodoMParqueos61";"NodoMParqueos62";"NodoMParqueos63";"NodoMParqueos64";"NodoMParqueos65";"NodoMParqueos66";}
+NodoL0 -> Nodo0;Nodo0 -> NodoCParqueos1;Nodo0 -> NodoFParqueos1;NodoCParqueos1 -> NodoCParqueos2;NodoCParqueos2 -> NodoCParqueos3;NodoCParqueos3 -> NodoCParqueos4;NodoCParqueos4 -> NodoCParqueos5;NodoCParqueos5 -> NodoCParqueos6;
+
+NodoFParqueos1 ->"NodoMParqueos11" ->"NodoMParqueos12" ->"NodoMParqueos13" ->"NodoMParqueos14" ->"NodoMParqueos15" ->"NodoMParqueos16"[dir=both,color="blue:black"];
+NodoFParqueos2 ->"NodoMParqueos21" ->"NodoMParqueos22" ->"NodoMParqueos23" ->"NodoMParqueos24" ->"NodoMParqueos25" ->"NodoMParqueos26"[dir=both,color="blue:black"];
+NodoFParqueos3 ->"NodoMParqueos31" ->"NodoMParqueos32" ->"NodoMParqueos33" ->"NodoMParqueos34" ->"NodoMParqueos35" ->"NodoMParqueos36"[dir=both,color="blue:black"];
+NodoFParqueos4 ->"NodoMParqueos41" ->"NodoMParqueos42" ->"NodoMParqueos43" ->"NodoMParqueos44" ->"NodoMParqueos45" ->"NodoMParqueos46"[dir=both,color="blue:black"];
+NodoFParqueos5 ->"NodoMParqueos51" ->"NodoMParqueos52" ->"NodoMParqueos53" ->"NodoMParqueos54" ->"NodoMParqueos55" ->"NodoMParqueos56"[dir=both,color="blue:black"];
+NodoFParqueos6 ->"NodoMParqueos61" ->"NodoMParqueos62" ->"NodoMParqueos63" ->"NodoMParqueos64" ->"NodoMParqueos65" ->"NodoMParqueos66"[dir=both,color="blue:black"];
+NodoFParqueos1 ->NodoFParqueos2;NodoFParqueos2 ->NodoFParqueos3;NodoFParqueos3 ->NodoFParqueos4;NodoFParqueos4 ->NodoFParqueos5;NodoFParqueos5 ->NodoFParqueos6;NodoCParqueos1 ->"NodoMParqueos11" ->"NodoMParqueos21" ->"NodoMParqueos31" ->"NodoMParqueos41" ->"NodoMParqueos51" ->"NodoMParqueos61"[dir=both,color="blue:black"];
+NodoCParqueos2 ->"NodoMParqueos12" ->"NodoMParqueos22" ->"NodoMParqueos32" ->"NodoMParqueos42" ->"NodoMParqueos52" ->"NodoMParqueos62"[dir=both,color="blue:black"];
+NodoCParqueos3 ->"NodoMParqueos13" ->"NodoMParqueos23" ->"NodoMParqueos33" ->"NodoMParqueos43" ->"NodoMParqueos53" ->"NodoMParqueos63"[dir=both,color="blue:black"];
+NodoCParqueos4 ->"NodoMParqueos14" ->"NodoMParqueos24" ->"NodoMParqueos34" ->"NodoMParqueos44" ->"NodoMParqueos54" ->"NodoMParqueos64"[dir=both,color="blue:black"];
+NodoCParqueos5 ->"NodoMParqueos15" ->"NodoMParqueos25" ->"NodoMParqueos35" ->"NodoMParqueos45" ->"NodoMParqueos55" ->"NodoMParqueos65"[dir=both,color="blue:black"];
+NodoCParqueos6 ->"NodoMParqueos16" ->"NodoMParqueos26" ->"NodoMParqueos36" ->"NodoMParqueos46" ->"NodoMParqueos56" ->"NodoMParqueos66"[dir=both,color="blue:black"];
+NodoL0 -> NodoL0;NodoL0 -> NodoL0;color="orange"
+style ="filled, bold"
+label ="Lista_Matrices"
+}
+}

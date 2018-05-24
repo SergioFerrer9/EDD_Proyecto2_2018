@@ -1,0 +1,46 @@
+digraph structs {
+ rankdir=LR;
+node [shape=record];
+ subgraph cluster_1 {
+node [style=filled];
+"NodoL0"
+[ label=" Codigo: Ruta1",fillcolor=cyan];"NodoGRuta1CB13"
+[ label=" Ruta: CB13&#92;ndir: 1"];
+"NodoGRuta1CC28"
+[ label=" Ruta: CC28&#92;ndir: 1"];
+"NodoGRuta1CB15"
+[ label=" Ruta: CB15&#92;ndir: 1"];
+"NodoGRuta1CC33"
+[ label=" Ruta: CC33&#92;ndir: 1"];
+"NodoGRuta1CB15"
+[ label=" Ruta: CB15&#92;ndir: 2"];
+"NodoGRuta1BB11"
+[ label=" Ruta: BB11&#92;ndir: 2"];
+"NodoGRuta1CB13"
+[ label=" Ruta: CB13&#92;ndir: 2"];
+"NodoL1"
+[ label=" Codigo: Ruta2",fillcolor=cyan];"NodoGRuta2AA10"
+[ label=" Ruta: AA10&#92;ndir: 1"];
+"NodoGRuta2AA64"
+[ label=" Ruta: AA64&#92;ndir: 1"];
+"NodoGRuta2BC57"
+[ label=" Ruta: BC57&#92;ndir: 1"];
+"NodoGRuta2AA84"
+[ label=" Ruta: AA84&#92;ndir: 1"];
+"NodoGRuta2CC63"
+[ label=" Ruta: CC63&#92;ndir: 1"];
+"NodoGRuta2CB51"
+[ label=" Ruta: CB51&#92;ndir: 1"];
+"NodoGRuta2CC27"
+[ label=" Ruta: CC27&#92;ndir: 1"];
+"NodoGRuta2CC63"
+[ label=" Ruta: CC63&#92;ndir: 1"];
+"NodoGRuta2AB30"
+[ label=" Ruta: AB30&#92;ndir: 1"];
+"NodoGRuta2AA10"
+[ label=" Ruta: AA10&#92;ndir: 1"];
+NodoL0 -> NodoL1;NodoL1 -> NodoL0;NodoL0 -> NodoGRuta1CB13;NodoGRuta1CB13 -> NodoGRuta1CC28;NodoGRuta1CC28 -> NodoGRuta1CB15;NodoGRuta1CB15 -> NodoGRuta1CC33;NodoGRuta1CC33 -> NodoGRuta1CB15;NodoGRuta1CB15 -> NodoGRuta1BB11;NodoGRuta1BB11 -> NodoGRuta1CB13;NodoL1 -> NodoGRuta2AA10;NodoGRuta2AA10 -> NodoGRuta2AA64;NodoGRuta2AA64 -> NodoGRuta2BC57;NodoGRuta2BC57 -> NodoGRuta2AA84;NodoGRuta2AA84 -> NodoGRuta2CC63;NodoGRuta2CC63 -> NodoGRuta2CB51;NodoGRuta2CB51 -> NodoGRuta2CC27;NodoGRuta2CC27 -> NodoGRuta2CC63;NodoGRuta2CC63 -> NodoGRuta2AB30;NodoGRuta2AB30 -> NodoGRuta2AA10;color="orange"
+style ="filled, bold"
+label ="Lista de Grafos"
+}
+}

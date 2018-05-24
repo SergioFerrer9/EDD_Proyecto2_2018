@@ -1,0 +1,465 @@
+digraph structs {
+ node [shape=record];
+ subgraph cluster_1 {
+node [style=filled];
+"NodoB0"
+[ label=" Bloque: 1",shape=box3d,fillcolor=cyan];
+"NodoL10"
+[ label=" Ruta: Ruta1&#92;nID: 1",shape=box,fillcolor=green];
+"NodoG1Ruta1CB13"
+[ label=" CB13&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoV5"[ label="<C1>| DPI: 744436|<C0>",fillcolor=yellow];
+"NodoV0"[ label="<C1>| DPI: 365227|<C0>",fillcolor=yellow];
+"NodoV18"[ label="<C1>| DPI: 217183|<C0>",fillcolor=yellow];
+"NodoV31"[ label="<C1>| DPI: 164387|<C0>",fillcolor=yellow];
+"NodoV22"[ label="<C1>| DPI: 107027|<C0>",fillcolor=yellow];
+"NodoV25"[ label=" DPI: 106883",fillcolor=yellow];
+NodoV22:C0->NodoV25
+"NodoV39"[ label=" DPI: 154408",fillcolor=yellow];
+NodoV22:C1->NodoV39
+NodoV31:C0->NodoV22
+"NodoV3"[ label="<C1>| DPI: 201204|<C0>",fillcolor=yellow];
+"NodoV40"[ label=" DPI: 206260",fillcolor=yellow];
+NodoV3:C1->NodoV40
+NodoV31:C1->NodoV3
+NodoV18:C0->NodoV31
+"NodoV1"[ label="<C1>| DPI: 304424|<C0>",fillcolor=yellow];
+"NodoV14"[ label="<C1>| DPI: 246455|<C0>",fillcolor=yellow];
+"NodoV27"[ label=" DPI: 266526",fillcolor=yellow];
+NodoV14:C1->NodoV27
+NodoV1:C0->NodoV14
+"NodoV10"[ label="<C1>| DPI: 361364|<C0>",fillcolor=yellow];
+"NodoV26"[ label=" DPI: 352331",fillcolor=yellow];
+NodoV10:C0->NodoV26
+NodoV1:C1->NodoV10
+NodoV18:C1->NodoV1
+NodoV0:C0->NodoV18
+"NodoV13"[ label="<C1>| DPI: 475611|<C0>",fillcolor=yellow];
+"NodoV16"[ label="<C1>| DPI: 425306|<C0>",fillcolor=yellow];
+"NodoV28"[ label="<C1>| DPI: 367577|<C0>",fillcolor=yellow];
+"NodoV36"[ label=" DPI: 387200",fillcolor=yellow];
+NodoV28:C1->NodoV36
+NodoV16:C0->NodoV28
+"NodoV8"[ label=" DPI: 427116",fillcolor=yellow];
+NodoV16:C1->NodoV8
+NodoV13:C0->NodoV16
+"NodoV7"[ label="<C1>| DPI: 571414|<C0>",fillcolor=yellow];
+"NodoV33"[ label="<C1>| DPI: 540223|<C0>",fillcolor=yellow];
+"NodoV29"[ label=" DPI: 527072",fillcolor=yellow];
+NodoV33:C0->NodoV29
+"NodoV24"[ label=" DPI: 543853",fillcolor=yellow];
+NodoV33:C1->NodoV24
+NodoV7:C0->NodoV33
+"NodoV11"[ label="<C1>| DPI: 656223|<C0>",fillcolor=yellow];
+"NodoV35"[ label=" DPI: 580415",fillcolor=yellow];
+NodoV11:C0->NodoV35
+"NodoV30"[ label="<C1>| DPI: 723741|<C0>",fillcolor=yellow];
+"NodoV37"[ label=" DPI: 676015",fillcolor=yellow];
+NodoV30:C0->NodoV37
+NodoV11:C1->NodoV30
+NodoV7:C1->NodoV11
+NodoV13:C1->NodoV7
+NodoV0:C1->NodoV13
+NodoV5:C0->NodoV0
+"NodoV4"[ label="<C1>| DPI: 802000|<C0>",fillcolor=yellow];
+"NodoV20"[ label="<C1>| DPI: 770341|<C0>",fillcolor=yellow];
+"NodoV38"[ label="<C1>| DPI: 756413|<C0>",fillcolor=yellow];
+"NodoV32"[ label=" DPI: 752001",fillcolor=yellow];
+NodoV38:C0->NodoV32
+"NodoV15"[ label=" DPI: 767202",fillcolor=yellow];
+NodoV38:C1->NodoV15
+NodoV20:C0->NodoV38
+"NodoV6"[ label="<C1>| DPI: 785835|<C0>",fillcolor=yellow];
+"NodoV23"[ label=" DPI: 800743",fillcolor=yellow];
+NodoV6:C1->NodoV23
+NodoV20:C1->NodoV6
+NodoV4:C0->NodoV20
+"NodoV9"[ label="<C1>| DPI: 936112|<C0>",fillcolor=yellow];
+"NodoV17"[ label="<C1>| DPI: 824388|<C0>",fillcolor=yellow];
+"NodoV19"[ label=" DPI: 818133",fillcolor=yellow];
+NodoV17:C0->NodoV19
+"NodoV21"[ label="<C1>| DPI: 883003|<C0>",fillcolor=yellow];
+"NodoV34"[ label=" DPI: 923532",fillcolor=yellow];
+NodoV21:C1->NodoV34
+NodoV17:C1->NodoV21
+NodoV9:C0->NodoV17
+"NodoV2"[ label="<C1>| DPI: 941045|<C0>",fillcolor=yellow];
+"NodoV12"[ label=" DPI: 976802",fillcolor=yellow];
+NodoV2:C1->NodoV12
+NodoV9:C1->NodoV2
+NodoV4:C1->NodoV9
+NodoV5:C1->NodoV4
+"NodoG1Ruta1CC28"
+[ label=" CC28&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoV46"[ label="<C1>| DPI: 744436|<C0>",fillcolor=yellow];
+"NodoV41"[ label="<C1>| DPI: 365227|<C0>",fillcolor=yellow];
+"NodoV59"[ label="<C1>| DPI: 217183|<C0>",fillcolor=yellow];
+"NodoV63"[ label="<C1>| DPI: 107027|<C0>",fillcolor=yellow];
+"NodoV66"[ label=" DPI: 106883",fillcolor=yellow];
+NodoV63:C0->NodoV66
+"NodoV44"[ label=" DPI: 201204",fillcolor=yellow];
+NodoV63:C1->NodoV44
+NodoV59:C0->NodoV63
+"NodoV42"[ label="<C1>| DPI: 304424|<C0>",fillcolor=yellow];
+"NodoV55"[ label="<C1>| DPI: 246455|<C0>",fillcolor=yellow];
+"NodoV68"[ label=" DPI: 266526",fillcolor=yellow];
+NodoV55:C1->NodoV68
+NodoV42:C0->NodoV55
+"NodoV51"[ label="<C1>| DPI: 361364|<C0>",fillcolor=yellow];
+"NodoV67"[ label=" DPI: 352331",fillcolor=yellow];
+NodoV51:C0->NodoV67
+NodoV42:C1->NodoV51
+NodoV59:C1->NodoV42
+NodoV41:C0->NodoV59
+"NodoV54"[ label="<C1>| DPI: 475611|<C0>",fillcolor=yellow];
+"NodoV57"[ label="<C1>| DPI: 425306|<C0>",fillcolor=yellow];
+"NodoV69"[ label=" DPI: 367577",fillcolor=yellow];
+NodoV57:C0->NodoV69
+"NodoV49"[ label=" DPI: 427116",fillcolor=yellow];
+NodoV57:C1->NodoV49
+NodoV54:C0->NodoV57
+"NodoV48"[ label="<C1>| DPI: 571414|<C0>",fillcolor=yellow];
+"NodoV65"[ label="<C1>| DPI: 543853|<C0>",fillcolor=yellow];
+"NodoV70"[ label=" DPI: 527072",fillcolor=yellow];
+NodoV65:C0->NodoV70
+NodoV48:C0->NodoV65
+"NodoV52"[ label="<C1>| DPI: 656223|<C0>",fillcolor=yellow];
+"NodoV71"[ label=" DPI: 723741",fillcolor=yellow];
+NodoV52:C1->NodoV71
+NodoV48:C1->NodoV52
+NodoV54:C1->NodoV48
+NodoV41:C1->NodoV54
+NodoV46:C0->NodoV41
+"NodoV45"[ label="<C1>| DPI: 802000|<C0>",fillcolor=yellow];
+"NodoV61"[ label="<C1>| DPI: 770341|<C0>",fillcolor=yellow];
+"NodoV56"[ label=" DPI: 767202",fillcolor=yellow];
+NodoV61:C0->NodoV56
+"NodoV47"[ label="<C1>| DPI: 785835|<C0>",fillcolor=yellow];
+"NodoV64"[ label=" DPI: 800743",fillcolor=yellow];
+NodoV47:C1->NodoV64
+NodoV61:C1->NodoV47
+NodoV45:C0->NodoV61
+"NodoV50"[ label="<C1>| DPI: 936112|<C0>",fillcolor=yellow];
+"NodoV58"[ label="<C1>| DPI: 824388|<C0>",fillcolor=yellow];
+"NodoV60"[ label=" DPI: 818133",fillcolor=yellow];
+NodoV58:C0->NodoV60
+"NodoV62"[ label=" DPI: 883003",fillcolor=yellow];
+NodoV58:C1->NodoV62
+NodoV50:C0->NodoV58
+"NodoV43"[ label="<C1>| DPI: 941045|<C0>",fillcolor=yellow];
+"NodoV53"[ label=" DPI: 976802",fillcolor=yellow];
+NodoV43:C1->NodoV53
+NodoV50:C1->NodoV43
+NodoV45:C1->NodoV50
+NodoV46:C1->NodoV45
+"NodoG1Ruta1CB15"
+[ label=" CB15&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoV81"[ label="<C1>| DPI: 527072|<C0>",fillcolor=yellow];
+"NodoV78"[ label="<C1>| DPI: 352331|<C0>",fillcolor=yellow];
+"NodoV74"[ label="<C1>| DPI: 107027|<C0>",fillcolor=yellow];
+"NodoV77"[ label=" DPI: 106883",fillcolor=yellow];
+NodoV74:C0->NodoV77
+"NodoV79"[ label=" DPI: 266526",fillcolor=yellow];
+NodoV74:C1->NodoV79
+NodoV78:C0->NodoV74
+"NodoV80"[ label=" DPI: 367577",fillcolor=yellow];
+NodoV78:C1->NodoV80
+NodoV81:C0->NodoV78
+"NodoV72"[ label="<C1>| DPI: 770341|<C0>",fillcolor=yellow];
+"NodoV76"[ label="<C1>| DPI: 543853|<C0>",fillcolor=yellow];
+"NodoV82"[ label=" DPI: 723741",fillcolor=yellow];
+NodoV76:C1->NodoV82
+NodoV72:C0->NodoV76
+"NodoV73"[ label="<C1>| DPI: 883003|<C0>",fillcolor=yellow];
+"NodoV75"[ label=" DPI: 800743",fillcolor=yellow];
+NodoV73:C0->NodoV75
+NodoV72:C1->NodoV73
+NodoV81:C1->NodoV72
+"NodoG1Ruta1CC33"
+[ label=" CC33&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoV85"[ label="<C1>| DPI: 712328|<C0>",fillcolor=yellow];
+"NodoV84"[ label="<C1>| DPI: 556468|<C0>",fillcolor=yellow];
+"NodoV83"[ label="<C1>| DPI: 340557|<C0>",fillcolor=yellow];
+"NodoV116"[ label="<C1>| DPI: 262616|<C0>",fillcolor=yellow];
+"NodoV92"[ label="<C1>| DPI: 207014|<C0>",fillcolor=yellow];
+"NodoV118"[ label=" DPI: 146452",fillcolor=yellow];
+NodoV92:C0->NodoV118
+"NodoV119"[ label="<C1>| DPI: 231658|<C0>",fillcolor=yellow];
+"NodoV122"[ label=" DPI: 222018",fillcolor=yellow];
+NodoV119:C0->NodoV122
+"NodoV126"[ label=" DPI: 247208",fillcolor=yellow];
+NodoV119:C1->NodoV126
+NodoV92:C1->NodoV119
+NodoV116:C0->NodoV92
+"NodoV128"[ label="<C1>| DPI: 313580|<C0>",fillcolor=yellow];
+"NodoV102"[ label=" DPI: 286202",fillcolor=yellow];
+NodoV128:C0->NodoV102
+"NodoV108"[ label="<C1>| DPI: 326067|<C0>",fillcolor=yellow];
+"NodoV131"[ label=" DPI: 316385",fillcolor=yellow];
+NodoV108:C0->NodoV131
+NodoV128:C1->NodoV108
+NodoV116:C1->NodoV128
+NodoV83:C0->NodoV116
+"NodoV107"[ label="<C1>| DPI: 460868|<C0>",fillcolor=yellow];
+"NodoV120"[ label="<C1>| DPI: 436345|<C0>",fillcolor=yellow];
+"NodoV121"[ label=" DPI: 420022",fillcolor=yellow];
+NodoV120:C0->NodoV121
+"NodoV129"[ label=" DPI: 454163",fillcolor=yellow];
+NodoV120:C1->NodoV129
+NodoV107:C0->NodoV120
+"NodoV106"[ label="<C1>| DPI: 465660|<C0>",fillcolor=yellow];
+"NodoV132"[ label=" DPI: 482862",fillcolor=yellow];
+NodoV106:C1->NodoV132
+NodoV107:C1->NodoV106
+NodoV83:C1->NodoV107
+NodoV84:C0->NodoV83
+"NodoV88"[ label="<C1>| DPI: 623861|<C0>",fillcolor=yellow];
+"NodoV103"[ label="<C1>| DPI: 583253|<C0>",fillcolor=yellow];
+"NodoV114"[ label="<C1>| DPI: 564565|<C0>",fillcolor=yellow];
+"NodoV123"[ label=" DPI: 556543",fillcolor=yellow];
+NodoV114:C0->NodoV123
+"NodoV112"[ label=" DPI: 580057",fillcolor=yellow];
+NodoV114:C1->NodoV112
+NodoV103:C0->NodoV114
+"NodoV90"[ label="<C1>| DPI: 586377|<C0>",fillcolor=yellow];
+"NodoV127"[ label=" DPI: 608232",fillcolor=yellow];
+NodoV90:C1->NodoV127
+NodoV103:C1->NodoV90
+NodoV88:C0->NodoV103
+"NodoV89"[ label="<C1>| DPI: 680730|<C0>",fillcolor=yellow];
+"NodoV101"[ label="<C1>| DPI: 666786|<C0>",fillcolor=yellow];
+"NodoV117"[ label=" DPI: 660675",fillcolor=yellow];
+NodoV101:C0->NodoV117
+NodoV89:C0->NodoV101
+"NodoV110"[ label=" DPI: 704401",fillcolor=yellow];
+NodoV89:C1->NodoV110
+NodoV88:C1->NodoV89
+NodoV84:C1->NodoV88
+NodoV85:C0->NodoV84
+"NodoV87"[ label="<C1>| DPI: 816822|<C0>",fillcolor=yellow];
+"NodoV95"[ label="<C1>| DPI: 732332|<C0>",fillcolor=yellow];
+"NodoV86"[ label="<C1>| DPI: 725530|<C0>",fillcolor=yellow];
+"NodoV115"[ label=" DPI: 727515",fillcolor=yellow];
+NodoV86:C1->NodoV115
+NodoV95:C0->NodoV86
+"NodoV104"[ label="<C1>| DPI: 755046|<C0>",fillcolor=yellow];
+"NodoV96"[ label="<C1>| DPI: 740511|<C0>",fillcolor=yellow];
+"NodoV130"[ label=" DPI: 752030",fillcolor=yellow];
+NodoV96:C1->NodoV130
+NodoV104:C0->NodoV96
+"NodoV124"[ label=" DPI: 783778",fillcolor=yellow];
+NodoV104:C1->NodoV124
+NodoV95:C1->NodoV104
+NodoV87:C0->NodoV95
+"NodoV98"[ label="<C1>| DPI: 907522|<C0>",fillcolor=yellow];
+"NodoV97"[ label="<C1>| DPI: 864443|<C0>",fillcolor=yellow];
+"NodoV113"[ label="<C1>| DPI: 841042|<C0>",fillcolor=yellow];
+"NodoV100"[ label=" DPI: 838835",fillcolor=yellow];
+NodoV113:C0->NodoV100
+"NodoV105"[ label=" DPI: 860812",fillcolor=yellow];
+NodoV113:C1->NodoV105
+NodoV97:C0->NodoV113
+"NodoV93"[ label="<C1>| DPI: 877082|<C0>",fillcolor=yellow];
+"NodoV125"[ label=" DPI: 900064",fillcolor=yellow];
+NodoV93:C1->NodoV125
+NodoV97:C1->NodoV93
+NodoV98:C0->NodoV97
+"NodoV91"[ label="<C1>| DPI: 914755|<C0>",fillcolor=yellow];
+"NodoV99"[ label="<C1>| DPI: 911034|<C0>",fillcolor=yellow];
+"NodoV109"[ label=" DPI: 914255",fillcolor=yellow];
+NodoV99:C1->NodoV109
+NodoV91:C0->NodoV99
+"NodoV94"[ label="<C1>| DPI: 921123|<C0>",fillcolor=yellow];
+"NodoV111"[ label=" DPI: 982122",fillcolor=yellow];
+NodoV94:C1->NodoV111
+NodoV91:C1->NodoV94
+NodoV98:C1->NodoV91
+NodoV87:C1->NodoV98
+NodoV85:C1->NodoV87
+"NodoG1Ruta1CB15"
+[ label=" CB15&#92;ndir: 2",shape=circle,fillcolor=salmon];
+"NodoV139"[ label="<C1>| DPI: 583253|<C0>",fillcolor=yellow];
+"NodoV138"[ label="<C1>| DPI: 286202|<C0>",fillcolor=yellow];
+"NodoV155"[ label="<C1>| DPI: 231658|<C0>",fillcolor=yellow];
+"NodoV154"[ label="<C1>| DPI: 146452|<C0>",fillcolor=yellow];
+"NodoV158"[ label=" DPI: 222018",fillcolor=yellow];
+NodoV154:C1->NodoV158
+NodoV155:C0->NodoV154
+"NodoV152"[ label="<C1>| DPI: 262616|<C0>",fillcolor=yellow];
+"NodoV162"[ label=" DPI: 247208",fillcolor=yellow];
+NodoV152:C0->NodoV162
+NodoV155:C1->NodoV152
+NodoV138:C0->NodoV155
+"NodoV143"[ label="<C1>| DPI: 460868|<C0>",fillcolor=yellow];
+"NodoV157"[ label="<C1>| DPI: 420022|<C0>",fillcolor=yellow];
+"NodoV167"[ label="<C1>| DPI: 316385|<C0>",fillcolor=yellow];
+"NodoV164"[ label=" DPI: 313580",fillcolor=yellow];
+NodoV167:C0->NodoV164
+"NodoV144"[ label=" DPI: 326067",fillcolor=yellow];
+NodoV167:C1->NodoV144
+NodoV157:C0->NodoV167
+"NodoV156"[ label="<C1>| DPI: 436345|<C0>",fillcolor=yellow];
+"NodoV165"[ label=" DPI: 454163",fillcolor=yellow];
+NodoV156:C1->NodoV165
+NodoV157:C1->NodoV156
+NodoV143:C0->NodoV157
+"NodoV150"[ label="<C1>| DPI: 564565|<C0>",fillcolor=yellow];
+"NodoV168"[ label="<C1>| DPI: 482862|<C0>",fillcolor=yellow];
+"NodoV142"[ label=" DPI: 465660",fillcolor=yellow];
+NodoV168:C0->NodoV142
+"NodoV159"[ label=" DPI: 556543",fillcolor=yellow];
+NodoV168:C1->NodoV159
+NodoV150:C0->NodoV168
+"NodoV148"[ label=" DPI: 580057",fillcolor=yellow];
+NodoV150:C1->NodoV148
+NodoV143:C1->NodoV150
+NodoV138:C1->NodoV143
+NodoV139:C0->NodoV138
+"NodoV136"[ label="<C1>| DPI: 838835|<C0>",fillcolor=yellow];
+"NodoV146"[ label="<C1>| DPI: 704401|<C0>",fillcolor=yellow];
+"NodoV153"[ label="<C1>| DPI: 660675|<C0>",fillcolor=yellow];
+"NodoV163"[ label=" DPI: 608232",fillcolor=yellow];
+NodoV153:C0->NodoV163
+"NodoV137"[ label=" DPI: 666786",fillcolor=yellow];
+NodoV153:C1->NodoV137
+NodoV146:C0->NodoV153
+"NodoV140"[ label="<C1>| DPI: 755046|<C0>",fillcolor=yellow];
+"NodoV151"[ label="<C1>| DPI: 727515|<C0>",fillcolor=yellow];
+"NodoV166"[ label=" DPI: 752030",fillcolor=yellow];
+NodoV151:C1->NodoV166
+NodoV140:C0->NodoV151
+"NodoV160"[ label=" DPI: 783778",fillcolor=yellow];
+NodoV140:C1->NodoV160
+NodoV146:C1->NodoV140
+NodoV136:C0->NodoV146
+"NodoV134"[ label="<C1>| DPI: 907522|<C0>",fillcolor=yellow];
+"NodoV141"[ label="<C1>| DPI: 860812|<C0>",fillcolor=yellow];
+"NodoV149"[ label=" DPI: 841042",fillcolor=yellow];
+NodoV141:C0->NodoV149
+"NodoV133"[ label="<C1>| DPI: 864443|<C0>",fillcolor=yellow];
+"NodoV161"[ label=" DPI: 900064",fillcolor=yellow];
+NodoV133:C1->NodoV161
+NodoV141:C1->NodoV133
+NodoV134:C0->NodoV141
+"NodoV145"[ label="<C1>| DPI: 914255|<C0>",fillcolor=yellow];
+"NodoV135"[ label=" DPI: 911034",fillcolor=yellow];
+NodoV145:C0->NodoV135
+"NodoV147"[ label=" DPI: 982122",fillcolor=yellow];
+NodoV145:C1->NodoV147
+NodoV134:C1->NodoV145
+NodoV136:C1->NodoV134
+NodoV139:C1->NodoV136
+"NodoG1Ruta1BB11"
+[ label=" BB11&#92;ndir: 2",shape=circle,fillcolor=salmon];
+"NodoV172"[ label="<C1>| DPI: 838835|<C0>",fillcolor=yellow];
+"NodoV175"[ label="<C1>| DPI: 583253|<C0>",fillcolor=yellow];
+"NodoV179"[ label="<C1>| DPI: 460868|<C0>",fillcolor=yellow];
+"NodoV174"[ label="<C1>| DPI: 286202|<C0>",fillcolor=yellow];
+"NodoV180"[ label=" DPI: 326067",fillcolor=yellow];
+NodoV174:C1->NodoV180
+NodoV179:C0->NodoV174
+"NodoV186"[ label="<C1>| DPI: 564565|<C0>",fillcolor=yellow];
+"NodoV178"[ label=" DPI: 465660",fillcolor=yellow];
+NodoV186:C0->NodoV178
+"NodoV184"[ label=" DPI: 580057",fillcolor=yellow];
+NodoV186:C1->NodoV184
+NodoV179:C1->NodoV186
+NodoV175:C0->NodoV179
+"NodoV182"[ label="<C1>| DPI: 704401|<C0>",fillcolor=yellow];
+"NodoV173"[ label=" DPI: 666786",fillcolor=yellow];
+NodoV182:C0->NodoV173
+"NodoV176"[ label="<C1>| DPI: 755046|<C0>",fillcolor=yellow];
+"NodoV187"[ label=" DPI: 727515",fillcolor=yellow];
+NodoV176:C0->NodoV187
+NodoV182:C1->NodoV176
+NodoV175:C1->NodoV182
+NodoV172:C0->NodoV175
+"NodoV170"[ label="<C1>| DPI: 907522|<C0>",fillcolor=yellow];
+"NodoV177"[ label="<C1>| DPI: 860812|<C0>",fillcolor=yellow];
+"NodoV185"[ label=" DPI: 841042",fillcolor=yellow];
+NodoV177:C0->NodoV185
+"NodoV169"[ label=" DPI: 864443",fillcolor=yellow];
+NodoV177:C1->NodoV169
+NodoV170:C0->NodoV177
+"NodoV181"[ label="<C1>| DPI: 914255|<C0>",fillcolor=yellow];
+"NodoV171"[ label=" DPI: 911034",fillcolor=yellow];
+NodoV181:C0->NodoV171
+"NodoV183"[ label=" DPI: 982122",fillcolor=yellow];
+NodoV181:C1->NodoV183
+NodoV170:C1->NodoV181
+NodoV172:C1->NodoV170
+"NodoG1Ruta1CB13"
+[ label=" CB13&#92;ndir: 2",shape=circle,fillcolor=salmon];
+"NodoL11"
+[ label=" Ruta: Ruta2&#92;nID: 2",shape=box,fillcolor=green];
+"NodoG1Ruta2AA10"
+[ label=" AA10&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2AA64"
+[ label=" AA64&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2BC57"
+[ label=" BC57&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2AA84"
+[ label=" AA84&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2CC63"
+[ label=" CC63&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2CB51"
+[ label=" CB51&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2CC27"
+[ label=" CC27&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2CC63"
+[ label=" CC63&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2AB30"
+[ label=" AB30&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG1Ruta2AA10"
+[ label=" AA10&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoB1"
+[ label=" Bloque: 2",shape=box3d,fillcolor=cyan];
+"NodoL20"
+[ label=" Ruta: Ruta2&#92;nID: 3",shape=box,fillcolor=green];
+"NodoG2Ruta2AA10"
+[ label=" AA10&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2AA64"
+[ label=" AA64&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2BC57"
+[ label=" BC57&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2AA84"
+[ label=" AA84&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2CC63"
+[ label=" CC63&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2CB51"
+[ label=" CB51&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2CC27"
+[ label=" CC27&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2CC63"
+[ label=" CC63&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2AB30"
+[ label=" AB30&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG2Ruta2AA10"
+[ label=" AA10&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoB2"
+[ label=" Bloque: 3",shape=box3d,fillcolor=cyan];
+"NodoL30"
+[ label=" Ruta: Ruta1&#92;nID: 4",shape=box,fillcolor=green];
+"NodoG3Ruta1CB13"
+[ label=" CB13&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG3Ruta1CC28"
+[ label=" CC28&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG3Ruta1CB15"
+[ label=" CB15&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG3Ruta1CC33"
+[ label=" CC33&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoG3Ruta1CB15"
+[ label=" CB15&#92;ndir: 2",shape=circle,fillcolor=salmon];
+"NodoG3Ruta1BB11"
+[ label=" BB11&#92;ndir: 2",shape=circle,fillcolor=salmon];
+"NodoG3Ruta1CB13"
+[ label=" CB13&#92;ndir: 2",shape=circle,fillcolor=salmon];
+"NodoB3"
+[ label=" Bloque: 4",shape=box3d,fillcolor=cyan];
+"NodoB4"
+[ label=" Bloque: 5",shape=box3d,fillcolor=cyan];
+NodoB0 -> NodoB1;NodoB0 -> NodoL10;NodoL10 -> NodoL11;NodoL10 -> NodoG1Ruta1CB13;NodoG1Ruta1CB13 -> NodoG1Ruta1CC28;NodoG1Ruta1CB13 -> NodoV5;NodoG1Ruta1CC28 -> NodoG1Ruta1CB15;NodoG1Ruta1CC28 -> NodoV46;NodoG1Ruta1CB15 -> NodoG1Ruta1CC33;NodoG1Ruta1CB15 -> NodoV81;NodoG1Ruta1CC33 -> NodoG1Ruta1CB15;NodoG1Ruta1CC33 -> NodoV85;NodoG1Ruta1CB15 -> NodoG1Ruta1BB11;NodoG1Ruta1CB15 -> NodoV139;NodoG1Ruta1BB11 -> NodoG1Ruta1CB13;NodoG1Ruta1BB11 -> NodoV172;NodoL11 -> NodoG1Ruta2AA10;NodoG1Ruta2AA10 -> NodoG1Ruta2AA64;NodoG1Ruta2AA64 -> NodoG1Ruta2BC57;NodoG1Ruta2BC57 -> NodoG1Ruta2AA84;NodoG1Ruta2AA84 -> NodoG1Ruta2CC63;NodoG1Ruta2CC63 -> NodoG1Ruta2CB51;NodoG1Ruta2CB51 -> NodoG1Ruta2CC27;NodoG1Ruta2CC27 -> NodoG1Ruta2CC63;NodoG1Ruta2CC63 -> NodoG1Ruta2AB30;NodoG1Ruta2AB30 -> NodoG1Ruta2AA10;NodoB1 -> NodoB2;NodoB1 -> NodoL20;NodoL20 -> NodoG2Ruta2AA10;NodoG2Ruta2AA10 -> NodoG2Ruta2AA64;NodoG2Ruta2AA64 -> NodoG2Ruta2BC57;NodoG2Ruta2BC57 -> NodoG2Ruta2AA84;NodoG2Ruta2AA84 -> NodoG2Ruta2CC63;NodoG2Ruta2CC63 -> NodoG2Ruta2CB51;NodoG2Ruta2CB51 -> NodoG2Ruta2CC27;NodoG2Ruta2CC27 -> NodoG2Ruta2CC63;NodoG2Ruta2CC63 -> NodoG2Ruta2AB30;NodoG2Ruta2AB30 -> NodoG2Ruta2AA10;NodoB2 -> NodoB3;NodoB2 -> NodoL30;NodoL30 -> NodoG3Ruta1CB13;NodoG3Ruta1CB13 -> NodoG3Ruta1CC28;NodoG3Ruta1CC28 -> NodoG3Ruta1CB15;NodoG3Ruta1CB15 -> NodoG3Ruta1CC33;NodoG3Ruta1CC33 -> NodoG3Ruta1CB15;NodoG3Ruta1CB15 -> NodoG3Ruta1BB11;NodoG3Ruta1BB11 -> NodoG3Ruta1CB13;NodoB3 -> NodoB4;color="orange"
+style ="filled, bold"
+label ="Bloques"
+}
+}

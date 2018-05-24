@@ -1,0 +1,112 @@
+digraph structs {
+ node [shape=record];
+ subgraph cluster_1 {
+node [style=filled];
+"NodoG1Ruta1CB15"
+[ label=" CB15&#92;ndir: 1",shape=circle,fillcolor=salmon];
+"NodoV81"[ label="<C1>| DPI: 527072&#92;nNombre: Cathryn Adelgren&#92;nTarjeta: A1E7D4FF01&#92;nEdad: 85|<C0>",fillcolor=yellow];
+"NodoV78"[ label="<C1>| DPI: 352331&#92;nNombre: Cathie Adee&#92;nTarjeta: A3E7D5FF10&#92;nEdad: 67|<C0>",fillcolor=yellow];
+"NodoV74"[ label="<C1>| DPI: 107027&#92;nNombre: Cathern Adduci&#92;nTarjeta: A3E2D1FF36&#92;nEdad: 58|<C0>",fillcolor=yellow];
+"NodoV77"[ label=" DPI: 106883&#92;nNombre: Cathi Adebisi&#92;nTarjeta: A8E2D7FF18&#92;nEdad: 45",fillcolor=yellow];
+NodoV74:C0->NodoV77
+"NodoV79"[ label=" DPI: 266526&#92;nNombre: Cathleen Adel&#92;nTarjeta: A7E5D7FF35&#92;nEdad: 85",fillcolor=yellow];
+NodoV74:C1->NodoV79
+NodoV78:C0->NodoV74
+"NodoV80"[ label=" DPI: 367577&#92;nNombre: Cathrine Adelblue&#92;nTarjeta: A9E1D5FF32&#92;nEdad: 52",fillcolor=yellow];
+NodoV78:C1->NodoV80
+NodoV81:C0->NodoV78
+"NodoV72"[ label="<C1>| DPI: 770341&#92;nNombre: Catherina Addleman&#92;nTarjeta: A6E8D3FF06&#92;nEdad: 29|<C0>",fillcolor=yellow];
+"NodoV76"[ label="<C1>| DPI: 543853&#92;nNombre: Cathey Ade&#92;nTarjeta: A6E3D7FF15&#92;nEdad: 58|<C0>",fillcolor=yellow];
+"NodoV82"[ label=" DPI: 723741&#92;nNombre: Cathy Adelizzi&#92;nTarjeta: A6E6D2FF74&#92;nEdad: 31",fillcolor=yellow];
+NodoV76:C1->NodoV82
+NodoV72:C0->NodoV76
+"NodoV73"[ label="<C1>| DPI: 883003&#92;nNombre: Catherine Addo&#92;nTarjeta: A9E8D6FF16&#92;nEdad: 23|<C0>",fillcolor=yellow];
+"NodoV75"[ label=" DPI: 800743&#92;nNombre: Catheryn Addy&#92;nTarjeta: A7E6D6FF67&#92;nEdad: 52",fillcolor=yellow];
+NodoV73:C0->NodoV75
+NodoV72:C1->NodoV73
+NodoV81:C1->NodoV72
+NodoG1Ruta1CB15 -> NodoV81[label="Ida"];color="orange"
+style ="filled, bold"
+label ="Estacion_Individual"
+}
+
+ subgraph cluster_1 {
+node [style=filled];
+"NodoG1Ruta1CB15"
+[ label=" CB15&#92;ndir: 2",shape=circle,fillcolor=salmon];
+"NodoV139"[ label="<C1>| DPI: 583253&#92;nNombre: Carmina Acy&#92;nTarjeta: A4E8D8FF61&#92;nEdad: 54|<C0>",fillcolor=yellow];
+"NodoV138"[ label="<C1>| DPI: 286202&#92;nNombre: Carmen Acuna&#92;nTarjeta: A8E0D2FF50&#92;nEdad: 41|<C0>",fillcolor=yellow];
+"NodoV155"[ label="<C1>| DPI: 231658&#92;nNombre: Caron Adamik&#92;nTarjeta: A1E4D7FF70&#92;nEdad: 68|<C0>",fillcolor=yellow];
+"NodoV154"[ label="<C1>| DPI: 146452&#92;nNombre: Carolynn Adamiak&#92;nTarjeta: A4E5D2FF82&#92;nEdad: 74|<C0>",fillcolor=yellow];
+"NodoV158"[ label=" DPI: 222018&#92;nNombre: Carrie Adamo&#92;nTarjeta: A5E5D3FF84&#92;nEdad: 59",fillcolor=yellow];
+NodoV154:C1->NodoV158
+NodoV155:C0->NodoV154
+"NodoV152"[ label="<C1>| DPI: 262616&#92;nNombre: Carolyn Adames&#92;nTarjeta: A8E5D2FF54&#92;nEdad: 31|<C0>",fillcolor=yellow];
+"NodoV162"[ label=" DPI: 247208&#92;nNombre: Carroll Adamsen&#92;nTarjeta: A1E4D4FF64&#92;nEdad: 55",fillcolor=yellow];
+NodoV152:C0->NodoV162
+NodoV155:C1->NodoV152
+NodoV138:C0->NodoV155
+"NodoV143"[ label="<C1>| DPI: 460868&#92;nNombre: Carol Adalja&#92;nTarjeta: A3E0D4FF54&#92;nEdad: 37|<C0>",fillcolor=yellow];
+"NodoV157"[ label="<C1>| DPI: 420022&#92;nNombre: Carri Adamitis&#92;nTarjeta: A1E6D2FF76&#92;nEdad: 57|<C0>",fillcolor=yellow];
+"NodoV167"[ label="<C1>| DPI: 316385&#92;nNombre: Cary Adamyan&#92;nTarjeta: A5E8D8FF58&#92;nEdad: 90|<C0>",fillcolor=yellow];
+"NodoV164"[ label=" DPI: 313580&#92;nNombre: Carson Adamsky&#92;nTarjeta: A4E6D1FF57&#92;nEdad: 71",fillcolor=yellow];
+NodoV167:C0->NodoV164
+"NodoV144"[ label=" DPI: 326067&#92;nNombre: Carola Adam&#92;nTarjeta: A8E4D4FF60&#92;nEdad: 30",fillcolor=yellow];
+NodoV167:C1->NodoV144
+NodoV157:C0->NodoV167
+"NodoV156"[ label="<C1>| DPI: 436345&#92;nNombre: Caroyln Adamis&#92;nTarjeta: A8E4D0FF18&#92;nEdad: 89|<C0>",fillcolor=yellow];
+"NodoV165"[ label=" DPI: 454163&#92;nNombre: Carter Adamson&#92;nTarjeta: A4E4D7FF68&#92;nEdad: 96",fillcolor=yellow];
+NodoV156:C1->NodoV165
+NodoV157:C1->NodoV156
+NodoV143:C0->NodoV157
+"NodoV150"[ label="<C1>| DPI: 564565&#92;nNombre: Caroline Adamec&#92;nTarjeta: A8E2D6FF56&#92;nEdad: 36|<C0>",fillcolor=yellow];
+"NodoV168"[ label="<C1>| DPI: 482862&#92;nNombre: Caryl Adan&#92;nTarjeta: A2E0D1FF46&#92;nEdad: 90|<C0>",fillcolor=yellow];
+"NodoV142"[ label=" DPI: 465660&#92;nNombre: Carol Adair&#92;nTarjeta: A9E3D4FF64&#92;nEdad: 63",fillcolor=yellow];
+NodoV168:C0->NodoV142
+"NodoV159"[ label=" DPI: 556543&#92;nNombre: Carrol Adamos&#92;nTarjeta: A5E5D8FF71&#92;nEdad: 51",fillcolor=yellow];
+NodoV168:C1->NodoV159
+NodoV150:C0->NodoV168
+"NodoV148"[ label=" DPI: 580057&#92;nNombre: Carolin Adamczyk&#92;nTarjeta: A4E3D6FF85&#92;nEdad: 27",fillcolor=yellow];
+NodoV150:C1->NodoV148
+NodoV143:C1->NodoV150
+NodoV138:C1->NodoV143
+NodoV139:C0->NodoV138
+"NodoV136"[ label="<C1>| DPI: 838835&#92;nNombre: Carmelo Acton&#92;nTarjeta: A4E8D2FF43&#92;nEdad: 89|<C0>",fillcolor=yellow];
+"NodoV146"[ label="<C1>| DPI: 704401&#92;nNombre: Carole Adamcik&#92;nTarjeta: A2E4D7FF10&#92;nEdad: 35|<C0>",fillcolor=yellow];
+"NodoV153"[ label="<C1>| DPI: 660675&#92;nNombre: Carolyne Adami&#92;nTarjeta: A1E3D5FF70&#92;nEdad: 38|<C0>",fillcolor=yellow];
+"NodoV163"[ label=" DPI: 608232&#92;nNombre: Carry Adamski&#92;nTarjeta: A6E1D0FF06&#92;nEdad: 35",fillcolor=yellow];
+NodoV153:C0->NodoV163
+"NodoV137"[ label=" DPI: 666786&#92;nNombre: Carmen Acuff&#92;nTarjeta: A1E1D4FF11&#92;nEdad: 67",fillcolor=yellow];
+NodoV153:C1->NodoV137
+NodoV146:C0->NodoV153
+"NodoV140"[ label="<C1>| DPI: 755046&#92;nNombre: Carmine Ada&#92;nTarjeta: A6E1D4FF74&#92;nEdad: 66|<C0>",fillcolor=yellow];
+"NodoV151"[ label="<C1>| DPI: 727515&#92;nNombre: Caroll Adamek&#92;nTarjeta: A2E0D4FF74&#92;nEdad: 76|<C0>",fillcolor=yellow];
+"NodoV166"[ label=" DPI: 752030&#92;nNombre: Cary Adamsonis&#92;nTarjeta: A1E0D3FF66&#92;nEdad: 96",fillcolor=yellow];
+NodoV151:C1->NodoV166
+NodoV140:C0->NodoV151
+"NodoV160"[ label=" DPI: 783778&#92;nNombre: Carrol Adamowski&#92;nTarjeta: A4E2D6FF54&#92;nEdad: 30",fillcolor=yellow];
+NodoV140:C1->NodoV160
+NodoV146:C1->NodoV140
+NodoV136:C0->NodoV146
+"NodoV134"[ label="<C1>| DPI: 907522&#92;nNombre: Carmelita Acron&#92;nTarjeta: A4E3D6FF62&#92;nEdad: 93|<C0>",fillcolor=yellow];
+"NodoV141"[ label="<C1>| DPI: 860812&#92;nNombre: Carmon Adachi&#92;nTarjeta: A9E7D5FF12&#92;nEdad: 32|<C0>",fillcolor=yellow];
+"NodoV149"[ label=" DPI: 841042&#92;nNombre: Carolina Adame&#92;nTarjeta: A6E0D3FF74&#92;nEdad: 62",fillcolor=yellow];
+NodoV141:C0->NodoV149
+"NodoV133"[ label="<C1>| DPI: 864443&#92;nNombre: Carmelina Acri&#92;nTarjeta: A9E4D8FF13&#92;nEdad: 81|<C0>",fillcolor=yellow];
+"NodoV161"[ label=" DPI: 900064&#92;nNombre: Carroll Adams&#92;nTarjeta: A4E4D1FF30&#92;nEdad: 85",fillcolor=yellow];
+NodoV133:C1->NodoV161
+NodoV141:C1->NodoV133
+NodoV134:C0->NodoV141
+"NodoV145"[ label="<C1>| DPI: 914255&#92;nNombre: Carolann Adamaitis&#92;nTarjeta: A9E4D5FF44&#92;nEdad: 20|<C0>",fillcolor=yellow];
+"NodoV135"[ label=" DPI: 911034&#92;nNombre: Carmella Actis&#92;nTarjeta: A5E2D7FF21&#92;nEdad: 85",fillcolor=yellow];
+NodoV145:C0->NodoV135
+"NodoV147"[ label=" DPI: 982122&#92;nNombre: Carolee Adamczak&#92;nTarjeta: A1E7D7FF62&#92;nEdad: 64",fillcolor=yellow];
+NodoV145:C1->NodoV147
+NodoV134:C1->NodoV145
+NodoV136:C1->NodoV134
+NodoV139:C1->NodoV136
+NodoG1Ruta1CB15 -> NodoV139[label="Vuelta"];color="orange"
+style ="filled, bold"
+label ="Estacion_Individual"
+}
+}
